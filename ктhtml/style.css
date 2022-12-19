@@ -1,0 +1,115 @@
+header{
+    width: 100%;
+    background: blueviolet;
+    height: 70px;
+background:blueviolet url(https://htmldemo.net/trio/trio/assets/img/logo-black.png) no-repeat 5% 50%;
+position: relative;
+}
+.title{
+    font-size: 36px;
+    padding-top: 10px;
+    text-align: center;
+}
+ul{
+    list-style: none;
+    margin: 0;
+    padding-left: 0;
+}
+a{
+    text-decoration: none;
+
+}
+li{
+    float:left;
+    margin-right: 4px;
+    
+}
+.angry-grid {
+    display: grid; 
+
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    
+    gap: 0px;
+    height: 100%;
+    
+}
+#item-0 {
+
+    background-color: #ED5BC5; 
+    grid-row-start: 1;
+    grid-column-start: 1;
+
+    grid-row-end: 2;
+    grid-column-end: 6;
+    
+}
+#item-1 {
+
+    background-color: #9559BE; 
+    grid-row-start: 3;
+    grid-column-start: 1;
+
+    grid-row-end: 4;
+    grid-column-end: 2;
+    
+}
+#item-2 {
+
+    background-color: #DEBB76; 
+    grid-row-start: 5;
+    grid-column-start: 1;
+
+    grid-row-end: 6;
+    grid-column-end: 2;
+    
+}
+#item-3 {
+
+    background-color: #D9567B; 
+    grid-row-start: 3;
+    grid-column-start: 3;
+
+    grid-row-end: 6;
+    grid-column-end: 4;
+    
+}
+#item-4 {
+
+    background-color: #C8FC7A; 
+    grid-row-start: 3;
+    grid-column-start: 5;
+
+    grid-row-end: 4;
+    grid-column-end: 6;
+    
+}
+#item-5 {
+
+    background-color: #B69BCD; 
+    grid-row-start: 5;
+    grid-column-start: 5;
+
+    grid-row-end: 6;
+    grid-column-end: 6;
+    
+}
+#item-6 {
+
+    background-color: #BBA77A; 
+    grid-row-start: 7;
+    grid-column-start: 3;
+
+    grid-row-end: 8;
+    grid-column-end: 4;
+    
+}
+#item-7 {
+
+    background-color: #ECBE58; 
+    grid-row-start: 7;
+    grid-column-start: 5;
+    grid-row-end: 8;
+    grid-column-end: 6;
+    
+}
